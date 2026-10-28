@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<script>if(Date.now()>=new Date('2026-11-28T00:00:00+01:00').getTime())document.documentElement.classList.add('verlopen')</script>
+<title>Schilderskeus campagnes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,650;12..96,750&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#13223A;--ink-2:#34445E;--as:#5E6B80;--cta:#C8461A;--cta-d:#AE3B13;--sun:#F3C556;--green:#1C7C4E;--paper:#FBF8F3;--paper-2:#F4EEE4;--lijn:#E7DFD2;--kaart:#FFFFFF;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Figtree,system-ui,sans-serif;font-size:16px;line-height:1.6;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,sans-serif;font-weight:750;letter-spacing:-.02em;line-height:1.1;text-wrap:balance}
+.label{font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--cta)}
+.top{position:sticky;top:0;z-index:20;background:rgba(19,34,58,.97);color:#fff}
+.top .wrap{display:flex;align-items:center;gap:24px;min-height:58px;flex-wrap:wrap}
+.top nav{display:flex;gap:18px;flex-wrap:wrap;font-size:14.5px}
+.top nav a{text-decoration:none;color:#C9D2E0;padding:8px 0}
+.top nav a:hover,.top nav a:focus-visible{color:#fff}
+.wm{font:700 22px/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.035em;white-space:nowrap}
+.wm .idot{position:relative;display:inline-block}
+.wm .idot i{position:absolute;left:50%;top:-.02em;width:.26em;height:.33em;transform:translateX(-50%);background:var(--cta);clip-path:path("M3.5 0C3.5 0 7 4.2 7 6.3A3.5 3.5 0 0 1 0 6.3C0 4.2 3.5 0 3.5 0Z")}
+.wm .under{position:relative;display:inline-block}
+.wm .under svg{position:absolute;left:-3%;bottom:-.2em;width:106%;height:.36em}
+.wm .under b{position:relative;font-weight:inherit}
+header.held{padding:64px 0 40px}
+header.held h1{font-size:clamp(34px,5vw,56px);margin:10px 0 14px;max-width:20ch}
+header.held p{max-width:64ch;color:var(--ink-2);font-size:18px}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.chip{background:var(--kaart);border:1px solid var(--lijn);border-radius:999px;padding:7px 14px;font-size:14.5px}
+.chip b{color:var(--cta)}
+section{padding:56px 0;border-top:1px solid var(--lijn);scroll-margin-top:56px}
+section h2{font-size:clamp(28px,3.4vw,38px);margin:8px 0 10px}
+section .intro{color:var(--ink-2);max-width:66ch;margin-bottom:28px}
+.sub{font-family:"Bricolage Grotesque",sans-serif;font-weight:750;font-size:22px;margin:44px 0 16px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;letter-spacing:-.01em}
+.sub span{font-family:Figtree,sans-serif;font-size:13.5px;font-weight:500;color:var(--as);letter-spacing:0}
+.blok{background:var(--kaart);border:1px solid var(--lijn);border-radius:var(--r);padding:22px}
+.blok h3{font-size:21px;margin:6px 0 8px}
+.blok p{color:var(--ink-2);font-size:15.5px}
+.donker{background:var(--ink);color:#fff;border:0}.donker p{color:#C9D2E0}.donker .label{color:var(--sun)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:999px;background:var(--cta);color:#fff;text-decoration:none;font-weight:600;border:0;font:inherit;cursor:pointer}
+.btn:hover{background:var(--cta-d)}
+.btn:focus-visible,.tab:focus-visible{outline:2px solid #2F6FDE;outline-offset:3px}
+.zoom{cursor:zoom-in}
+footer{padding:36px 0 56px;color:var(--as);font-size:14px;border-top:1px solid var(--lijn)}
+
+/* inhoud */
+.inhoud{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.ih{display:flex;flex-direction:column;gap:4px;background:var(--kaart);border:1px solid var(--lijn);border-radius:var(--r);padding:18px;text-decoration:none}
+.ih:hover,.ih:focus-visible{border-color:var(--cta)}
+.ih span{font-family:"Bricolage Grotesque",sans-serif;font-weight:750;font-size:30px;color:var(--cta);line-height:1}
+.ih b{font-weight:700;font-size:16px;line-height:1.3;margin-top:6px}.ih small{color:var(--as);font-size:13.5px}
+
+/* pagina's */
+.paginas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.pagina{background:var(--kaart);border:1px solid var(--lijn);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.pagina .shots{display:grid;grid-template-columns:2.6fr 1fr;gap:10px;padding:14px;background:var(--paper-2)}
+.pagina .shots img{width:100%;height:100%;object-fit:cover;object-position:top;border-radius:6px;box-shadow:0 2px 10px rgba(0,0,0,.12);aspect-ratio:16/10}
+.pagina .shots img.mob{aspect-ratio:9/19.5}
+.pagina .tekst{padding:18px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.pagina h3{font-size:22px}
+.pagina p{color:var(--ink-2);font-size:15px}
+.pagina .url{font-size:13px;color:var(--as);word-break:break-all}
+.pagina .btn{align-self:flex-start;margin-top:auto}
+
+/* overzicht */
+.tabel-wrap{overflow-x:auto;background:var(--kaart);border:1px solid var(--lijn);border-radius:var(--r)}
+.btab{width:100%;border-collapse:collapse;font-size:15px;min-width:820px}
+.btab th,.btab td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--lijn);vertical-align:top}
+.btab th{font-weight:600;font-size:13px;color:var(--as);background:#FAF7F2}
+.btab td.n,.btab th.n{text-align:right;white-space:nowrap}
+.btab tr.tot td{border-bottom:0;font-weight:700}
+.btab small{display:block;color:var(--as);font-size:13px}
+.st{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.st.live{background:#E3F2EA;color:var(--green)}.st.klaar{background:#FFF3D6;color:#7A5A00}.st.nieuw{background:#FBE7DE;color:var(--cta-d)}
+.bud{display:flex;align-items:baseline;gap:10px;margin:6px 0 4px}
+.bud b{font-family:"Bricolage Grotesque",sans-serif;font-weight:750;font-size:30px}
+.bud span{font-size:14px;color:var(--as)}
+.kw{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+.kwt{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:10px}
+.kwt th{font-weight:600;font-size:12.5px;color:var(--as);text-align:left;padding:6px 0;border-bottom:1px solid var(--lijn)}
+.kwt td{padding:7px 0;border-bottom:1px solid #EEE7DC;vertical-align:top}
+.kwt td+td,.kwt th+th{text-align:right;padding-left:10px;white-space:nowrap}
+.kwt td:first-child{font-weight:500}
+.neg{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.neg span{font-size:13px;background:#F1EBE2;border-radius:999px;padding:3px 10px;text-decoration:line-through;color:#7A726A}
+.kw .neg{margin-top:14px}
+.lp{font-size:13.5px;color:var(--as);margin-top:8px}.lp a{color:var(--ink-2)}
+.voetnoot{font-size:13px;color:var(--as);margin-top:14px}
+.let{background:#FFF8E6;border:1px solid #F0DCA4;border-radius:10px;padding:10px 14px;font-size:14px;margin-top:12px;color:#5A4500}
+
+/* Google-zoekadvertenties */
+.serp{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;align-items:start}
+.serp-desk{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.gk{background:#fff;border:1px solid #E3DED7;border-radius:10px;padding:14px 14px 16px;font-family:Arial,Helvetica,sans-serif;color:#202124}
+.gk .wat,.pmv .wat,.shop .wat{font-family:Figtree,sans-serif;font-size:12px;font-weight:700;color:var(--cta);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px;display:block}
+.zb{display:flex;align-items:center;gap:10px;border:1px solid #DFE1E5;border-radius:999px;padding:8px 12px;font-size:14px;box-shadow:0 1px 4px rgba(32,33,36,.12)}
+.zb svg{flex:none}
+.g-sp{font-weight:700;font-size:14px;margin:16px 0 10px}
+.g-site{display:flex;align-items:center;gap:10px}
+.g-fav{width:28px;height:28px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;flex:none;overflow:hidden;font-family:"Bricolage Grotesque",Arial,sans-serif}
+.g-fav.sk{background:var(--cta)}
+.g-fav.vm{background:#fff;border:1px solid #E3E3E3}.g-fav.vm img{width:88%;height:auto}
+.g-naam{font-size:14px;line-height:1.25}
+.g-url{font-size:12px;color:#4D5156}
+.g-h{font-size:17px;line-height:1.3;color:#1A0DAB;margin:8px 0 4px;font-weight:400}
+.g-d{font-size:14px;line-height:1.58;color:#4D5156}
+.g-call{font-size:14px;color:#4D5156;margin-top:2px}
+.gk.desk{padding:18px 22px 20px}.gk.desk .zb{max-width:520px}.gk.desk .g-h{font-size:20px}
+
+/* Performance Max */
+.pmax-kop{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-bottom:8px}
+.assets{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.assets ul{list-style:none;margin-top:8px;font-size:14.5px}
+.assets li{padding:6px 0;border-bottom:1px solid #EEE7DC;display:flex;justify-content:space-between;gap:10px}
+.assets li em{font-style:normal;color:var(--as);font-size:12.5px;white-space:nowrap}
+.assets li:last-child{border-bottom:0}
+.beeldbank{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin-top:6px}
+.beeldbank figure{position:relative}
+.beeldbank img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px}
+.beeldbank figcaption{position:absolute;left:6px;bottom:6px;background:rgba(255,255,255,.92);font-size:11px;font-weight:700;border-radius:4px;padding:1px 6px}
+.pm2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;align-items:start}
+.pmv{display:flex;flex-direction:column;gap:8px;min-width:0}
+.pmv .wat{margin-bottom:0}
+.pmv.breed{grid-column:span 2}.pmv.vol{grid-column:1/-1}
+.knop{display:inline-block;margin-top:10px;background:var(--cta);color:#fff;border-radius:999px;padding:8px 16px;font-size:13px;font-weight:700}
+.knop.blauw{background:#065FD4}.knop.klein{padding:6px 14px;font-size:12.5px;margin-top:8px}
+.phone{width:100%;max-width:300px;margin:0 auto;border:9px solid #111;border-radius:32px;background:#fff;overflow:hidden;font-family:Arial,Helvetica,sans-serif;color:#202124;font-size:13px;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+.phone.zwart{background:#000;color:#fff}
+.ps-video{position:relative;aspect-ratio:9/16;cursor:zoom-in}
+.ps-video video{width:100%;height:100%;object-fit:cover}
+.ps-acties{position:absolute;right:8px;top:38%;display:flex;flex-direction:column;gap:14px}
+.ps-acties b{width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.22)}
+.ps-info{padding:10px 12px 12px}
+.ps-kanaal{display:flex;align-items:center;gap:8px;font-weight:700}
+.ps-kanaal .g-fav{width:26px;height:26px}
+.ps-kanaal em{font-style:normal;font-weight:400;font-size:11px;background:rgba(255,255,255,.18);border-radius:3px;padding:1px 5px}
+.ps-titel{margin:8px 0 10px;line-height:1.35}
+.ps-cta{display:block;text-align:center;background:#3EA6FF;color:#0F0F0F;font-weight:700;border-radius:999px;padding:9px}
+.ps-nav{display:flex;justify-content:space-around;padding:10px 6px;border-top:1px solid #222}
+.ps-nav b{width:18px;height:18px;border-radius:4px;background:#333}
+.browser{border:1px solid #D6D3CE;border-radius:10px;overflow:hidden;background:#fff;font-family:Arial,Helvetica,sans-serif;color:#202124;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.bbar{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#F1F0EE;border-bottom:1px solid #E2DFDA}
+.bbar>span{width:10px;height:10px;border-radius:50%;background:#D5D2CC}
+.burl{margin-left:10px;flex:1;background:#fff;border-radius:999px;padding:4px 12px;font-size:12px;color:#5F6368}
+.ytbar{display:flex;align-items:center;gap:16px;padding:10px 16px}
+.yt-logo{display:flex;align-items:center;gap:4px;font-weight:700;font-size:17px;letter-spacing:-.5px}
+.yt-logo i{width:26px;height:18px;border-radius:5px;background:#FF0000;position:relative}
+.yt-logo i::after{content:"";position:absolute;left:10px;top:5px;border-left:8px solid #fff;border-top:4px solid transparent;border-bottom:4px solid transparent}
+.ytzoek{flex:1;max-width:420px;margin:0 auto;border:1px solid #D3D3D3;border-radius:999px;padding:6px 14px;font-size:13px;color:#888}
+.ytgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:4px 16px 18px}
+.ytkaart img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px}
+.yt{position:relative}
+.yt .dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;padding:1px 5px;border-radius:4px}
+.ytmeta{display:flex;gap:10px;margin-top:10px;font-size:12.5px;line-height:1.4}
+.ytmeta .g-fav{width:32px;height:32px}
+.ytmeta b{font-size:14px;display:block}
+.ytd{color:#606060;margin-top:2px}
+.gs{font-size:12px;color:#5F6368}.gs strong{color:#202124}
+.ytkaart.leeg .vlak{aspect-ratio:16/9;border-radius:10px;background:#EDEDED}
+.lijnen{padding:10px 0;display:flex;flex-direction:column;gap:7px;flex:1}
+.lijnen i{display:block;height:9px;border-radius:4px;background:#E6E6E6}
+.lijnen.ruim{padding:12px 16px 18px}
+.lijnen.groot i{height:16px}
+.speler{position:relative;background:#000;margin:0 16px;border-radius:10px;overflow:hidden;cursor:zoom-in}
+.speler video,.speler img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.sp-ad{position:absolute;left:12px;bottom:22px;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.95);border-radius:8px;padding:8px 10px;font-size:12.5px;max-width:70%}
+.sp-ad b{display:block;font-size:13.5px}.sp-ad small{color:#606060}
+.sp-ad .knop{margin-top:0}
+.sp-skip{position:absolute;right:0;bottom:22px;background:rgba(0,0,0,.7);color:#fff;font-size:13px;padding:8px 14px;border:1px solid rgba(255,255,255,.4);border-right:0}
+.sp-label{position:absolute;left:12px;top:10px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;padding:2px 7px;border-radius:3px}
+.sp-balk{position:absolute;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.3)}
+.sp-balk i{display:block;width:38%;height:100%;background:#FFCC00}
+.gm-top,.dc-top{padding:12px 12px 6px}
+.gm-zoek{display:flex;align-items:center;gap:10px;background:#EEF2F8;border-radius:999px;padding:8px 12px;color:#5F6368}
+.gm-zoek span{flex:1}
+.gm-tab{padding:8px 14px;font-size:12px;color:#5F6368;font-weight:700}
+.gm-rij{display:flex;gap:10px;padding:10px 14px;align-items:flex-start}
+.gm-rij .g-fav{width:34px;height:34px}
+.gm-rij>div{min-width:0}
+.g-fav.grijs{background:#DADCE0}
+.gm-van{font-weight:700}.gm-van .bd{font-size:10.5px;font-weight:700;border:1px solid #202124;border-radius:3px;padding:0 3px;margin-right:6px}
+.gm-onder{font-weight:700;margin-top:2px}.gm-snip{color:#5F6368;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gm-rij.leeg{opacity:.6}
+.gm-open{margin:4px 14px 10px;border:1px solid #E3E3E3;border-radius:10px;overflow:hidden}
+.gm-open img,.dc-kaart img{width:100%;aspect-ratio:1.91/1;object-fit:cover}
+.tx{padding:10px 12px 12px;font-size:12.5px;line-height:1.45}
+.tx b{display:block;font-size:14px;margin-bottom:3px}
+.dc-g{display:block;text-align:center;font-size:22px;font-weight:700;color:#5F6368;margin-bottom:8px;letter-spacing:-.5px}
+.dc-kaart{margin:10px 12px;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.14)}
+.dc-kaart.leeg .vlak{aspect-ratio:1.91/1;background:#EDEDED}.dc-kaart.leeg .lijnen{padding:10px 12px}
+.site{padding:0 0 20px}
+.site-kop{display:flex;gap:18px;align-items:baseline;padding:14px 22px;border-bottom:1px solid #EEE;font-size:13px;color:#777}
+.site-kop b{font-family:Georgia,serif;font-size:20px;color:#333;margin-right:12px}
+.site-body{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:26px;padding:18px 22px 0}
+.vlak.breed{aspect-ratio:2.4/1;background:#EDEDED;border-radius:6px;margin:6px 0}
+.native{display:grid;grid-template-columns:42% 1fr;border:1px solid #E3E3E3;border-radius:8px;overflow:hidden;margin:10px 0}
+.native img{width:100%;height:100%;object-fit:cover;min-height:160px}
+.site-zij{display:flex;flex-direction:column;gap:6px}
+.adlbl{font-size:10.5px;color:#999;text-transform:uppercase;letter-spacing:.06em}
+.kaartje{background:#fff;border:1px solid #E3DED7;border-radius:10px;overflow:hidden;margin-bottom:12px}
+.kaartje img{width:100%;aspect-ratio:1;object-fit:cover}
+.kaartje.port img{aspect-ratio:4/5}
+.logo-r{display:flex;align-items:center;gap:8px;font-size:12px;color:#5F6368;margin-bottom:6px}.logo-r .g-fav{width:22px;height:22px;font-size:11px}
+.yta-kaart img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.yta-kaart .ytmeta{padding:0 12px 12px}
+.yta-leeg .vlak{aspect-ratio:16/9;background:#EDEDED}.yta-leeg .lijnen{padding:10px 12px}
+
+/* Meta */
+.meta-kop{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.ads{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start}
+.ad{background:var(--kaart);border:1px solid #E3DED7;border-radius:10px;overflow:hidden;font-size:14.5px}
+.ad .kop1{display:flex;align-items:center;gap:10px;padding:12px 14px}
+.ad .logo{width:36px;height:36px;border-radius:50%;background:var(--cta);color:#fff;display:flex;align-items:center;justify-content:center;font-family:"Bricolage Grotesque",sans-serif;font-weight:750}
+.ad .naam{font-weight:700;line-height:1.2}
+.ad .naam small{display:block;font-weight:400;color:#8A8580;font-size:12.5px}
+.ad .nr{margin-left:auto;font-size:12px;font-weight:700;color:var(--cta)}
+.ad .prim{padding:0 14px;margin:0 0 8px;white-space:pre-line}
+.ad .prim.kort{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ad .meer{border:0;background:none;color:#8A8580;font:inherit;font-size:13.5px;padding:0 14px 10px;cursor:pointer}
+.ad img,.ad video{width:100%;aspect-ratio:4/5;object-fit:cover;background:#000}
+.ad .onder{display:flex;align-items:center;gap:12px;padding:12px 14px;background:#F3F1EE}
+.ad .onder div{flex:1;min-width:0}
+.ad .dom{font-size:11.5px;color:#8A8580;text-transform:uppercase;letter-spacing:.03em}
+.ad .kopr{font-weight:700;line-height:1.3}
+.ad .besch{font-size:13px;color:#6A6560}
+.ad .cta{background:#E4E1DC;border-radius:6px;padding:8px 12px;font-weight:700;font-size:13.5px;white-space:nowrap}
+.ad .doel{display:block;padding:8px 14px 0;font-size:12px;color:var(--as)}
+.stories{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+.story{background:#000;border-radius:14px;overflow:hidden;position:relative;aspect-ratio:9/16;cursor:zoom-in}
+.story img,.story video{width:100%;height:100%;object-fit:cover}
+.story span{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px}
+.stories.drie{grid-template-columns:repeat(3,minmax(0,200px))}
+
+/* planning */
+.tijdlijn{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.stap{background:var(--kaart);border:1px solid var(--lijn);border-radius:var(--r);padding:20px}
+.stap .wanneer{font-size:12.5px;font-weight:700;color:var(--cta);text-transform:uppercase;letter-spacing:.06em}
+.stap h3{font-size:21px;margin:8px 0 6px}.stap p{color:var(--ink-2);font-size:15px}
+.punten{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(19,34,58,.9);display:none;align-items:center;justify-content:center;padding:24px}
+.lb.open{display:flex}
+.lb img,.lb video{max-width:min(92vw,1000px);max-height:90vh;width:auto;height:auto;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.lb button{position:absolute;top:16px;right:20px;border:0;background:rgba(255,255,255,.14);color:#fff;width:44px;height:44px;border-radius:50%;font-size:26px;cursor:pointer}
+
+html.verlopen body>*:not(.verlopen-melding){display:none!important}
+.verlopen-melding{display:none}
+html.verlopen .verlopen-melding{display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:24px;font:500 20px/1.5 Figtree,system-ui,sans-serif;color:#13223A;background:#FBF8F3}
+
+@media(max-width:1100px){.serp{grid-template-columns:repeat(2,minmax(0,1fr))}.beeldbank{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1000px){.inhoud{grid-template-columns:repeat(2,minmax(0,1fr))}.paginas,.kw,.serp-desk,.punten,.meta-kop,.pmax-kop,.assets{grid-template-columns:minmax(0,1fr)}.pm2,.ads{grid-template-columns:repeat(2,minmax(0,1fr))}.pmv.breed{grid-column:1/-1}.stories{grid-template-columns:repeat(3,minmax(0,1fr))}.tijdlijn{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.pm2,.ads{grid-template-columns:minmax(0,1fr)}.pmv.breed,.pmv.vol{grid-column:auto}.ytgrid{grid-template-columns:minmax(0,1fr)}.ytkaart.leeg{display:none}.site-body{grid-template-columns:minmax(0,1fr)}.native{grid-template-columns:1fr}.sp-ad{max-width:none;right:12px;bottom:auto;top:34px}.sp-skip{display:none}.serp{grid-template-columns:minmax(0,1fr)}.stories{grid-template-columns:1fr 1fr}.stories.drie{grid-template-columns:1fr 1fr}.tijdlijn{grid-template-columns:minmax(0,1fr)}.beeldbank{grid-template-columns:repeat(3,minmax(0,1fr))}.top nav{gap:12px;font-size:13.5px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="verlopen-melding"><p>Deze preview is verlopen.</p></div>
+<div class="top"><div class="wrap"><span class="wm" aria-label="Schilderskeus">sch<span class="idot">ı<i></i></span>lders<span class="under"><svg viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true"><path d="M4 20 C60 8 120 6 170 10 S260 20 296 12 L296 26 C240 28 160 22 100 24 S30 28 4 28Z" fill="#F3C556"/></svg><b>keus</b></span></span><nav><a href="#paginas">Pagina's</a><a href="#overzicht">Overzicht</a><a href="#zoeken">Zoeken</a><a href="#pmax">Performance Max</a><a href="#meta">Meta</a><a href="#planning">Planning</a></nav></div></div>
+
+<header class="held"><div class="wrap">
+  <span class="label">Preview · oktober 2026</span>
+  <h1>Alle campagnes voor Schilderskeus en renovlies in beeld</h1>
+  <p>Drie salespages, vier zoekcampagnes, twee nieuwe Performance Max-campagnes en één Meta-campagne. Zo ziet alles eruit voordat het live gaat. Alle beelden zijn neutraal: eigen AI-beelden en Voortman-foto's zonder logo.</p>
+  <div class="chips"><span class="chip"><b>3</b> salespages</span><span class="chip"><b>4</b> zoekcampagnes</span><span class="chip"><b>2</b> × Performance Max <small>(nieuw)</small></span><span class="chip"><b>1</b> × Meta <small>(nieuw)</small></span><span class="chip"><b>9</b> video-advertenties</span></div>
+</div></header>
+
+<section id="inhoud"><div class="wrap">
+  <div class="inhoud">
+    <a class="ih" href="#paginas"><span>1</span><b>Salespages</b><small>Schilderskeus, /behangen en renovliesbehang</small></a>
+    <a class="ih" href="#overzicht"><span>2</span><b>Overzicht en budget</b><small>Alle campagnes op een rij</small></a>
+    <a class="ih" href="#zoeken"><span>3</span><b>Zoekcampagnes</b><small>Zoektermen en advertenties</small></a>
+    <a class="ih" href="#pmax"><span>4</span><b>Performance Max</b><small>YouTube, Shorts, Gmail, Discover, websites</small></a>
+    <a class="ih" href="#meta"><span>5</span><b>Meta</b><small>Alleen voor /behangen</small></a>
+  </div>
+</div></section>
+
+<section id="paginas"><div class="wrap">
+  <span class="label">1 · Salespages</span>
+  <h2>Drie pagina's, drie doelen</h2>
+  <p class="intro">Elke campagne stuurt naar één van deze pagina's. Schilderskeus vergelijkt offertes voor schilderwerk en voor glasvlies of renovlies. De renovliespagina is van Voortman zelf.</p>
+  <div class="paginas">
+    <div class="pagina"><div class="shots"><img class="zoom" src="assets/pages/schilderskeus-desktop.jpg" data-groot="assets/pages/schilderskeus-desktop.jpg" alt="schilderskeus.nl op desktop" loading="lazy"><img class="mob zoom" src="assets/pages/schilderskeus-mobiel.jpg" data-groot="assets/pages/schilderskeus-mobiel.jpg" alt="schilderskeus.nl op mobiel" loading="lazy"></div>
+      <div class="tekst"><span class="label">Offertes vergelijken</span><h3>Schilderskeus</h3><p>Schilder nodig? Vertel in één minuut wat er moet gebeuren en ontvang tot 3 offertes uit je regio.</p><span class="url">schilderskeus.nl</span><a class="btn" href="https://schilderskeus.nl/" target="_blank" rel="noopener">Open de pagina</a></div></div>
+    <div class="pagina"><div class="shots"><img class="zoom" src="assets/pages/behangen-desktop.jpg" data-groot="assets/pages/behangen-desktop.jpg" alt="schilderskeus.nl/behangen op desktop" loading="lazy"><img class="mob zoom" src="assets/pages/behangen-mobiel.jpg" data-groot="assets/pages/behangen-mobiel.jpg" alt="schilderskeus.nl/behangen op mobiel" loading="lazy"></div>
+      <div class="tekst"><span class="label">Offertes vergelijken</span><h3>Glasvlies of renovlies</h3><p>Voor strakke muren en plafonds zonder stucwerk. Tot 3 offertes voor plakken en sausen in één klus.</p><span class="url">schilderskeus.nl/behangen</span><a class="btn" href="https://schilderskeus.nl/behangen/" target="_blank" rel="noopener">Open de pagina</a></div></div>
+    <div class="pagina"><div class="shots"><img class="zoom" src="assets/pages/renovlies-desktop.jpg" data-groot="assets/pages/renovlies-desktop.jpg" alt="Renovliespagina van Voortman op desktop" loading="lazy"><img class="mob zoom" src="assets/pages/renovlies-mobiel.jpg" data-groot="assets/pages/renovlies-mobiel.jpg" alt="Renovliespagina van Voortman op mobiel" loading="lazy"></div>
+      <div class="tekst"><span class="label">Voortman Schilderwerken</span><h3>Renovlies en glasvlies</h3><p>Strakke, scheurvrije muren en plafonds zonder stucwerk, door eigen vakmensen. Met de offertewizard.</p><span class="url">voortmanschilderwerken.nl/renovliesbehang</span><a class="btn" href="https://voortmanschilderwerken.nl/renovliesbehang/" target="_blank" rel="noopener">Open de pagina</a></div></div>
+  </div>
+</div></section>
+
+<section id="overzicht"><div class="wrap">
+  <span class="label">2 · Overzicht</span>
+  <h2>Alle campagnes op een rij</h2>
+  <p class="intro">Alles draait in het Google Ads-account van Voortman, in de regio Deventer, Apeldoorn en Zutphen. De twee Performance Max-campagnes en Meta zijn nieuw. De budgetten daarvan zijn een voorstel om mee te starten.</p>
+  <div class="tabel-wrap"><table class="btab">
+    <thead><tr><th>Campagne</th><th>Kanaal</th><th>Landingspagina</th><th>Status</th><th class="n">Per dag</th><th class="n">Per maand</th></tr></thead>
+    <tbody>
+      <tr><td><b>Renovlies &amp; Glasvlies · Specifiek</b><small>Mensen die renovlies of glasvlies willen laten aanbrengen</small></td><td>Google Zoeken</td><td>voortmanschilderwerken.nl/renovliesbehang</td><td><span class="st live">Live</span></td><td class="n">€ 20</td><td class="n">± € 610</td></tr>
+      <tr><td><b>Renovlies &amp; Glasvlies · Breed</b><small>Brede termen, alleen in de regio</small></td><td>Google Zoeken</td><td>voortmanschilderwerken.nl/renovliesbehang</td><td><span class="st live">Live</span></td><td class="n">€ 10</td><td class="n">± € 305</td></tr>
+      <tr><td><b>Schilder vergelijken</b><small>Mensen die een schilder of offerte zoeken</small></td><td>Google Zoeken</td><td>schilderskeus.nl</td><td><span class="st klaar">Klaar, gepauzeerd</span></td><td class="n">€ 15</td><td class="n">± € 455</td></tr>
+      <tr><td><b>Behang vergelijken</b><small>Glasvlies en renovlies laten plakken</small></td><td>Google Zoeken</td><td>schilderskeus.nl/behangen</td><td><span class="st klaar">Klaar, gepauzeerd</span></td><td class="n">€ 15</td><td class="n">± € 455</td></tr>
+      <tr><td><b>PMax · Renovlies &amp; Glasvlies</b><small>YouTube, Shorts, Gmail, Discover, websites en Zoeken</small></td><td>Performance Max</td><td>voortmanschilderwerken.nl/renovliesbehang</td><td><span class="st nieuw">Voorstel</span></td><td class="n">€ 10</td><td class="n">± € 305</td></tr>
+      <tr><td><b>PMax · Schilderskeus</b><small>Offertes vergelijken, zelfde kanalen</small></td><td>Performance Max</td><td>schilderskeus.nl</td><td><span class="st nieuw">Voorstel</span></td><td class="n">€ 10</td><td class="n">± € 305</td></tr>
+      <tr><td><b>Meta · Glasvlies of renovlies</b><small>Facebook en Instagram: feed, Stories en Reels</small></td><td>Meta</td><td>schilderskeus.nl/behangen</td><td><span class="st nieuw">Voorstel</span></td><td class="n">€ 15</td><td class="n">± € 455</td></tr>
+      <tr class="tot"><td>Totaal als alles draait</td><td></td><td></td><td></td><td class="n">€ 95</td><td class="n">± € 2.890</td></tr>
+    </tbody></table></div>
+  <p class="voetnoot">Per maand = per dag × 30,4. Google kan op een dag tot twee keer het dagbudget uitgeven, maar over de maand niet meer dan dit.</p>
+</div></section>
+
+<section id="zoeken"><div class="wrap">
+  <span class="label">3 · Google Zoeken</span>
+  <h2>Vier zoekcampagnes: bovenaan bij wie nu al zoekt</h2>
+  <p class="intro">Wie zoekt op "schilder deventer" of "renovlies laten aanbrengen" heeft de klus al in zijn hoofd. Met deze campagnes staan we bovenaan. De twee renovliescampagnes van Voortman draaien al. De twee van Schilderskeus staan klaar.</p>
+
+  <h3 class="sub">Zoektermen en budget per campagne <span>volume per maand in Nederland · geschatte prijs per klik</span></h3>
+  <div class="kw">
+    <div class="blok"><span class="label">Campagne 1 · Live · Voortman</span><h3>Renovlies &amp; Glasvlies · Specifiek</h3><div class="bud"><b>€20</b><span>per dag</span></div><p>Mensen die het willen laten doen.</p>
+      <table class="kwt"><thead><tr><th>Zoekterm</th><th>Volume</th><th>Klik</th></tr></thead><tbody>
+      <tr><td>renovlies behang aanbrengen</td><td>1.000</td><td>€1,00</td></tr><tr><td>renovlies behanger</td><td>500</td><td>€0,70</td></tr><tr><td>renovlies behangen</td><td>450</td><td>€2,00</td></tr><tr><td>renovlies laten behangen</td><td>350</td><td>€2,50</td></tr><tr><td>renovlies behang laten aanbrengen</td><td>350</td><td>€2,50</td></tr><tr><td>glasvliesbehang aanbrengen</td><td>200</td><td>€0,25</td></tr><tr><td>renovlies laten aanbrengen</td><td>150</td><td>€3,00</td></tr><tr><td>glasvlies behangen</td><td>80</td><td>€0,60</td></tr></tbody></table>
+      <p class="lp">Naar <a href="https://voortmanschilderwerken.nl/renovliesbehang/" target="_blank" rel="noopener">voortmanschilderwerken.nl/renovliesbehang</a></p></div>
+    <div class="blok"><span class="label">Campagne 2 · Live · Voortman</span><h3>Renovlies &amp; Glasvlies · Breed</h3><div class="bud"><b>€10</b><span>per dag</span></div><p>Brede termen met veel volume, alleen in de regio Deventer, Apeldoorn en Zutphen.</p>
+      <table class="kwt"><thead><tr><th>Zoekterm</th><th>Volume</th><th>Klik</th></tr></thead><tbody>
+      <tr><td>renovlies behang</td><td>13.000</td><td>€0,80</td></tr><tr><td>renovlies</td><td>7.000</td><td>€0,70</td></tr><tr><td>glasvliesbehang</td><td>2.500</td><td>€0,60</td></tr><tr><td>glasvlies behang</td><td>500</td><td>€0,35</td></tr><tr><td>glasvlies</td><td>400</td><td>€0,25</td></tr></tbody></table>
+      <div class="neg"><span>gamma</span><span>praxis</span><span>kopen</span><span>zelf</span><span>lijm</span><span>verwijderen</span><span>fotobehang</span><span>vliesbehang</span><span>vinylbehang</span><span>stucen</span><span>vacature</span></div>
+      <p class="lp">Naar <a href="https://voortmanschilderwerken.nl/renovliesbehang/" target="_blank" rel="noopener">voortmanschilderwerken.nl/renovliesbehang</a></p></div>
+    <div class="blok"><span class="label">Campagne 3 · Klaar · Schilderskeus</span><h3>Schilder vergelijken</h3><div class="bud"><b>€15</b><span>per dag · max. €3,50 per klik</span></div><p>Mensen die een schilder zoeken of offertes willen vergelijken. 30 km rond Deventer.</p>
+      <table class="kwt"><thead><tr><th>Zoekterm</th><th>Volume</th><th>Klik</th></tr></thead><tbody>
+      <tr><td>schilder deventer</td><td>400</td><td>€2,50</td></tr><tr><td>schilder apeldoorn</td><td>300</td><td>€1,70</td></tr><tr><td>schildersbedrijf apeldoorn</td><td>250</td><td>€1,30</td></tr><tr><td>offerte schilderwerk</td><td>200</td><td>€4,50</td></tr><tr><td>schilders vergelijken</td><td>150</td><td>€1,90</td></tr><tr><td>schilder zutphen</td><td>100</td><td>€1,00</td></tr><tr><td>schilder raalte</td><td>100</td><td>€1,00</td></tr><tr><td>schilder twello</td><td>100</td><td>€1,50</td></tr><tr><td>schildersbedrijf deventer</td><td>100</td><td>€1,50</td></tr><tr><td>schilder offerte</td><td>70</td><td>€4,00</td></tr><tr><td>schilder in de buurt</td><td>70</td><td>€2,00</td></tr></tbody></table>
+      <div class="neg"><span>vacature</span><span>cursus</span><span>opleiding</span><span>salaris</span><span>zelf</span><span>schilderij</span><span>kunstschilder</span><span>gamma</span><span>praxis</span><span>verf kopen</span><span>auto</span><span>spuiter</span></div>
+      <p class="lp">Naar <a href="https://schilderskeus.nl/" target="_blank" rel="noopener">schilderskeus.nl</a></p></div>
+    <div class="blok"><span class="label">Campagne 4 · Klaar · Schilderskeus</span><h3>Behang vergelijken</h3><div class="bud"><b>€15</b><span>per dag · max. €3,50 per klik</span></div><p>Mensen die glasvlies of renovlies willen laten plakken. 30 km rond Deventer.</p>
+      <table class="kwt"><thead><tr><th>Zoekterm</th><th>Volume</th><th>Klik</th></tr></thead><tbody>
+      <tr><td>renovlies</td><td>7.000</td><td>€0,70</td></tr><tr><td>renovlies plafond</td><td>100</td><td>€0,80</td></tr><tr><td>glasvlies behangen</td><td>80</td><td>€0,60</td></tr><tr><td>glasvlies aanbrengen</td><td>40</td><td>€0,70</td></tr><tr><td>renovlies laten plakken</td><td>–</td><td>–</td></tr><tr><td>glasvlies laten plakken</td><td>–</td><td>–</td></tr></tbody></table>
+      <div class="neg"><span>kopen</span><span>zelf</span><span>gamma</span><span>lijm</span><span>per rol</span><span>behangtafel</span><span>aanbieding</span><span>vacature</span></div>
+      <p class="let"><b>Advies:</b> haal de algemene termen zoals "behanger" en "behanger deventer" uit deze campagne. Die trekken ook mensen met gewoon behang, en dat doet Voortman niet.</p>
+      <p class="lp">Naar <a href="https://schilderskeus.nl/behangen/" target="_blank" rel="noopener">schilderskeus.nl/behangen</a></p></div>
+  </div>
+  <p class="voetnoot">Bron: Ahrefs, Nederland, oktober 2026. "–" = te weinig data. Klikprijzen zijn een schatting; de echte prijs bepaalt de veiling.</p>
+
+  <h3 class="sub">Zoekadvertenties op mobiel <span>één per campagne · zo staan ze bovenaan in Google</span></h3>
+  <div class="serp" id="serp-mob"></div>
+  <h3 class="sub">Zoekadvertenties op desktop <span>andere zoekterm, andere combinatie van koppen</span></h3>
+  <div class="serp-desk" id="serp-desk"></div>
+</div></section>
+
+<section id="pmax"><div class="wrap">
+  <span class="label">4 · Performance Max · nieuw</span>
+  <h2>Twee Performance Max-campagnes: ook zichtbaar vóór iemand zoekt</h2>
+  <p class="intro">Performance Max laat dezelfde advertentie zien op YouTube, in Shorts, Gmail, Discover, op websites en in Zoeken. Google kiest per persoon het beste beeld en de beste tekst. Er is geen webshop, dus geen Shopping: het doel is een offerteaanvraag. Daarom moet de meting van aanvragen eerst goed staan.</p>
+
+  <div id="pmax-blokken"></div>
+</div></section>
+
+<section id="meta"><div class="wrap">
+  <span class="label">5 · Meta · nieuw</span>
+  <h2>Meta: glasvlies en renovlies bij huiseigenaren in de regio</h2>
+  <p class="intro">Eén campagne op Facebook en Instagram, alleen voor schilderskeus.nl/behangen. Mensen met scheurtjes in het plafond of oude muren zoeken nog niet actief. Met beeld laten we zien hoe strak het kan worden. Daarna vragen ze in één minuut offertes aan.</p>
+  <div class="meta-kop">
+    <div class="blok"><span class="label">Voorstel</span><h3>Budget</h3><div class="bud"><b>€15</b><span>per dag · ± €455 per maand</span></div><p>Na een week kijken we naar de kosten per aanvraag. De advertenties die de meeste aanvragen opleveren krijgen meer budget, de rest zetten we uit.</p></div>
+    <div class="blok"><span class="label">Wie</span><h3>Huiseigenaren, 30 tot 65 jaar</h3><p>30 km rond Deventer, dus ook Apeldoorn en Zutphen. Interesses: woning, verbouwen, interieur en doe-het-zelf. Later ook mensen die op de pagina waren maar niets aanvroegen.</p></div>
+    <div class="blok donker"><span class="label">Doel</span><h3>Aanvragen, geen klikken</h3><p>De campagne stuurt op ingevulde aanvragen. Daarvoor moet de Meta-pixel met een "Lead"-event op schilderskeus.nl/behangen staan.</p></div>
+  </div>
+  <h3 class="sub">Feed <span>6 beeldadvertenties · 4:5 · elk een andere opbouw en knop</span></h3>
+  <div class="ads" id="meta-feed"></div>
+  <h3 class="sub">Stories en Reels <span>dezelfde 6 advertenties · 9:16 · boven en onder vrij voor de interface</span></h3>
+  <div class="stories" id="meta-stories"></div>
+  <h3 class="sub">Video <span>3 video-advertenties · 10 seconden · feed 4:5</span></h3>
+  <div class="ads" id="meta-video"></div>
+  <h3 class="sub">Video in Stories en Reels <span>dezelfde 3 video's · 9:16</span></h3>
+  <div class="stories drie" id="meta-video-st"></div>
+</div></section>
+
+<section id="planning"><div class="wrap">
+  <span class="label">6 · Planning</span>
+  <h2>Planning en wat er nog nodig is</h2>
+  <div class="tijdlijn">
+    <div class="stap"><span class="wanneer">Deze week</span><h3>Feedback</h3><p>Jullie feedback op de advertenties, teksten en budgetten. Wij verwerken die.</p></div>
+    <div class="stap"><span class="wanneer">Daarna</span><h3>Meting</h3><p>Aanvragen meten op schilderskeus.nl, /behangen en de renovliespagina, in Google Ads en met de Meta-pixel.</p></div>
+    <div class="stap"><span class="wanneer">Start</span><h3>Live</h3><p>De zoekcampagnes van Schilderskeus aan, de twee Performance Max-campagnes en Meta erbij.</p></div>
+    <div class="stap"><span class="wanneer">Na 2 weken</span><h3>Bijsturen</h3><p>Kosten per aanvraag per campagne. Meer budget naar wat aanvragen oplevert.</p></div>
+  </div>
+  <h3 class="sub">Aandachtspunten</h3>
+  <div class="punten">
+    <div class="blok"><h3>Performance Max en Meta hebben meting nodig</h3><p>Zonder gemeten aanvragen weet Google of Meta niet wie hij moet zoeken. Eerst de conversie "aanvraag verstuurd" instellen, dan pas starten.</p></div>
+    <div class="blok"><h3>Fotobehang op de homepage</h3><p>Op schilderskeus.nl staat bij Behangen nog "vlies, glasvlies, fotobehang". Voortman doet alleen glasvlies en renovlies. Advies: "fotobehang" weghalen.</p></div>
+    <div class="blok"><h3>Beelden</h3><p>Alle advertentiebeelden zijn neutraal: eigen AI-beelden of Voortman-foto's zonder logo. In de Schilderskeus-advertenties staat nergens de naam Voortman.</p></div>
+    <div class="blok"><h3>Zelfde zoekwoorden, één account</h3><p>Schilderskeus en Voortman bieden op deels dezelfde renovlies- en glasvliestermen. Binnen één account toont Google per zoekopdracht maar één van de twee. Dat is zo bedoeld.</p></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">Preview voor intern gebruik. Verloopt op 28 november 2026.</div></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Vergroting"><button id="lbSluit" aria-label="Sluiten">×</button><div id="lbInhoud"></div></div>
+
+<script>
+function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
+var ZOEK='<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#9AA0A6" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>';
+var FAV={sk:'<span class="g-fav sk">s</span>',vm:'<span class="g-fav vm"><img src="assets/img/vm-logo.png" alt=""></span>'};
+var NAAM={sk:'Schilderskeus',vm:'Voortman Schilderwerken'};
+var DOM={sk:'schilderskeus.nl',vm:'voortmanschilderwerken.nl'};
+
+/* ---------- Zoekadvertenties (koppen en teksten uit de echte RSA's) ---------- */
+var SERP=[
+ {c:'Campagne 1 · Specifiek',m:'vm',q:'renovlies laten aanbrengen',url:'https://voortmanschilderwerken.nl › renovlies › aanbrengen',h:'Renovlies Laten Aanbrengen | Strakke Muren Zonder Stucwerk | Vraag Gratis Offerte Aan',d:'Renovlies behang strak aangebracht door eigen vakmensen. Vraag een gratis offerte aan. Naadloos, stootvast en overschilderbaar.',call:'Eigen Vakmensen · Heldere Prijs Vooraf · Muren En Plafonds',
+  q2:'renovlies laten behangen',h2:'Renovlies Behanger Nodig? | Voortman Schilderwerken | Heldere Prijs Vooraf',d2:'Naadloos, stootvast en overschilderbaar. Ideaal voor nieuwbouw en renovatie. Bel 0570 448955 of vraag online een offerte aan.'},
+ {c:'Campagne 2 · Breed',m:'vm',q:'renovlies behang',url:'https://voortmanschilderwerken.nl › renovlies › aanbrengen',h:'Renovlies Behang Vakwerk | Deventer, Apeldoorn, Zutphen | Naadloos & Glad Resultaat',d:'Actief in Deventer, Apeldoorn, Zutphen en omgeving. Kleine klussen vaak snel gepland.',call:'Muren En Plafonds · Ook Voor Nieuwbouw · Eigen Vakmensen',
+  q2:'glasvliesbehang',h2:'Renovlies Specialist | Strakke Muren Zonder Stucwerk | Kleine Klus Snel Ingepland',d2:'Renovlies behang strak aangebracht door eigen vakmensen. Heldere afspraken, geen verrassingen.'},
+ {c:'Campagne 3 · Schilder vergelijken',m:'sk',q:'schilder deventer',url:'https://schilderskeus.nl › schilder › offertes',h:'Schilder in Deventer e.o. | Vergelijk 3 Schilders | Gratis en Vrijblijvend',d:'Vertel in 1 minuut wat er geschilderd moet worden en ontvang tot 3 offertes uit je regio.',call:'Binnen 48 Uur Reactie · Max. 3 Offertes, Geen Spam',
+  q2:'offerte schilderwerk',h2:'Offerte Schilderwerk | Gratis Schilder Offertes | Aanvraag in 1 Minuut',d2:'Geen tien bedrijven bellen. Eén aanvraag, maximaal 3 schilders die contact opnemen. Gratis en vrijblijvend.'},
+ {c:'Campagne 4 · Behang vergelijken',m:'sk',q:'glasvlies laten plakken',url:'https://schilderskeus.nl › behangen › offertes',h:'Glasvlies Laten Plakken? | Plakken en Sausen in 1 Klus | Max. 3 Offertes, Geen Spam',d:'Glasvlies of renovlies laten plakken? Vraag in 1 minuut tot 3 offertes aan uit je regio.',call:'Gratis en Vrijblijvend · Ook Voor Plafonds',
+  q2:'renovlies plafond',h2:'Renovlies Laten Plakken? | Strakke Muren, Geen Stucwerk | Ook Voor Plafonds',d2:'Strak resultaat zonder stucwerk. Plakken en sausen door één vakman, ook op plafonds. Gratis en vrijblijvend.'}
+];
+function gk(a,desk){
+  return '<div class="gk'+(desk?' desk':'')+'"><span class="wat">'+esc(a.c)+'</span><div class="zb">'+ZOEK+esc(desk?a.q2:a.q)+'</div><div class="g-sp">Gesponsord</div>'+
+   '<div class="g-site">'+FAV[a.m]+'<div><div class="g-naam">'+NAAM[a.m]+'</div><div class="g-url">'+esc(a.url)+'</div></div></div>'+
+   '<div class="g-h">'+esc(desk?a.h2:a.h)+'</div><div class="g-d">'+esc(desk?a.d2:a.d)+'</div><div class="g-call">'+esc(a.call)+'</div></div>';
+}
+document.getElementById('serp-mob').innerHTML=SERP.map(function(a){return gk(a,false)}).join('');
+document.getElementById('serp-desk').innerHTML=SERP.map(function(a){return gk(a,true)}).join('');
+
+/* ---------- Performance Max ---------- */
+var PM=[
+ {id:'sk',m:'sk',titel:'PMax · Schilderskeus',label:'Campagne 5 · Nieuw',lp:'schilderskeus.nl',lpUrl:'https://schilderskeus.nl/',bud:'€10',
+  doel:'Offertes vergelijken voor binnen- en buitenschilderwerk. Puur Schilderskeus, zonder Voortman in beeld.',
+  themas:[['schilder','3.300','€2,00'],['schilderwerk','800','€1,70'],['buitenschilderwerk','700','€1,80'],['binnenschilderwerk','200','€2,50'],['muren laten schilderen','150','€0,90'],['huis schilderen kosten','60','€1,10']],
+  signalen:['Mensen die zochten op schilder, schilderwerk en offerte schilderwerk','In de markt voor woningverbetering en schilders','Pas verhuisd of net een huis gekocht','Bezoekers van schilderskeus.nl die geen aanvraag deden'],
+  koppen:['Schilders Vergelijken','Gratis Schilder Offertes','Vergelijk 3 Schilders','Aanvraag in 1 Minuut','Binnen 48 Uur Reactie'],
+  lang:['Vergelijk gratis tot 3 offertes van schilders uit je regio','Schilder nodig? Eén aanvraag, maximaal 3 vakmensen die contact opnemen'],
+  besch:['Gratis en vrijblijvend. Vergelijk prijs, planning en aanpak.','Binnen- en buitenschilderwerk: kozijnen, muren, plafonds en gevels.'],
+  cta:'Offerte aanvragen',
+  beelden:['00-huis-land','01-woonkamer-land','02-kozijn-ladder-land','04-kwast-sq','05-stel-sq','06-plafond-sq','07-voordeur-port','08-muur-rollen-port','vm-worp','vm-twello','vm-herenhuizen','vm-boerderij'],
+  short1:'ps1-muur-s',short1t:'Schilder nodig? Vergelijk eerst 3 offertes.',short2:'ps2-huis-s',short2t:'Kozijnen en deur weer als nieuw? Max. 3 schilders, geen spam.',
+  instream:{video:'ps3-woonkamer-l',t:'Eén offerte zegt weinig. Drie zeggen alles.'},
+  home:{img:'00-huis-land',t:'Vergelijk gratis 3 schilders uit je regio',d:'Binnen- en buitenschilderwerk. Aanvraag in 1 minuut.'},
+  gmail:{img:'01-woonkamer-land',onder:'Schilder nodig? Vergelijk eerst 3 offertes',snip:'Gratis en vrijblijvend. Binnen 48 uur reactie.',b:'Vergelijk 3 schilders uit je regio',t:'Eén aanvraag, maximaal 3 vakmensen die contact opnemen.'},
+  disc:{img:'vm-twello',t:'Kozijnen, muren of gevel laten schilderen? Vergelijk eerst 3 offertes.'},
+  app:{img:'02-kozijn-ladder-land',t:'Vergelijk 3 schilders uit je regio'},
+  site:{url:'www.voorbeeldsite.nl/wonen',img:'vm-herenhuizen',b:'Vergelijk gratis 3 schilders',t:'Binnen- en buitenschilderwerk. Vertel in 1 minuut wat er moet gebeuren.',sq:'05-stel-sq',sqb:'Aanvraag in 1 minuut',sqt:'Tot 3 offertes uit je regio. Jij kiest.',port:'07-voordeur-port',portb:'Voordeur en kozijnen weer als nieuw',portt:'Vergelijk gratis 3 schilders.'}},
+ {id:'vm',m:'vm',titel:'PMax · Renovlies & Glasvlies',label:'Campagne 6 · Nieuw',lp:'voortmanschilderwerken.nl/renovliesbehang',lpUrl:'https://voortmanschilderwerken.nl/renovliesbehang/',bud:'€10',
+  doel:'Renovlies en glasvlies door eigen vakmensen van Voortman. Vult de twee renovlies-zoekcampagnes aan met video en beeld.',
+  themas:[['renovlies behang','13.000','€0,80'],['renovlies','7.000','€0,70'],['glasvliesbehang','2.500','€0,60'],['renovlies behang aanbrengen','1.000','€1,00'],['glasvlies behang','500','€0,35'],['renovlies plafond','100','€0,80']],
+  signalen:['Mensen die zochten op renovlies en glasvlies laten aanbrengen','Bezoekers van de renovliespagina die geen offerte aanvroegen','In de markt voor woningverbetering en renovatie','Bestaande klanten van Voortman (klantenlijst)'],
+  koppen:['Renovlies Laten Aanbrengen','Glasvlies Laten Aanbrengen','Strak Zonder Stucwerk','Eigen Vakmensen','Heldere Prijs Vooraf'],
+  lang:['Renovlies en glasvlies strak aangebracht door eigen vakmensen uit Deventer','Strakke muren en plafonds zonder stucwerk. Vraag een gratis offerte aan'],
+  besch:['Naadloos, stootvast en overschilderbaar.','Actief in Deventer, Apeldoorn, Zutphen en omgeving.'],
+  cta:'Offerte aanvragen',
+  beelden:['03-glasvlies-land','16-gang-land','06-plafond-sq','15-visgraat-sq','12-scheuren-port','13-strak-groen-port','17-plakken-port','14-plafond-st','vm-binnen','vm-trap'],
+  short1:'pv1-glasvlies-s',short1t:'Glasvlies laten aanbrengen? Strak geplakt en gesausd door eigen vakmensen.',short2:'pv2-plafond-s',short2t:'Renovlies op je plafond: naadloos, glad en overschilderbaar.',
+  instream:{img:'03-glasvlies-land',t:'Renovlies en glasvlies, strak zonder stucwerk'},
+  home:{img:'16-gang-land',t:'Glasvlies in gang en trappenhuis',d:'Stootvast en overschilderbaar. Door eigen vakmensen.'},
+  gmail:{img:'03-glasvlies-land',onder:'Strakke muren zonder stucwerk',snip:'Renovlies en glasvlies door eigen vakmensen.',b:'Renovlies laten aanbrengen?',t:'Naadloos, glad en overschilderbaar. Vraag een gratis offerte aan.'},
+  disc:{img:'06-plafond-sq',t:'Scheurtjes in je plafond? Renovlies maakt het weer strak, zonder stucwerk.'},
+  app:{img:'16-gang-land',t:'Glasvlies: stootvast voor gang en trap'},
+  site:{url:'www.voorbeeldsite.nl/verbouwen',img:'16-gang-land',b:'Renovlies of glasvlies laten aanbrengen?',t:'Strakke muren en plafonds zonder stucwerk, door eigen vakmensen. Deventer, Apeldoorn en Zutphen.',sq:'15-visgraat-sq',sqb:'Glasvlies: sterk en stootvast',sqt:'Later makkelijk opnieuw te sausen.',port:'13-strak-groen-port',portb:'Strak als stucwerk',portt:'Renovlies werkt scheurtjes weg.'}}
+];
+function img(n){return 'assets/img/'+n+'.jpg'}
+function zimg(n,alt,cls){return '<img class="zoom'+(cls?' '+cls:'')+'" src="'+img(n)+'" data-groot="'+img(n)+'" alt="'+esc(alt)+'" loading="lazy">'}
+function vid(n){return 'assets/video/'+n}
+function short(p,n,t){
+  return '<div class="phone zwart"><div class="ps-video" data-video="'+vid(n)+'.mp4"><video muted loop playsinline preload="metadata" poster="'+vid(n)+'.jpg"><source src="'+vid(n)+'.mp4" type="video/mp4"></video><div class="ps-acties" aria-hidden="true"><b></b><b></b><b></b><b></b></div></div>'+
+   '<div class="ps-info"><div class="ps-kanaal">'+FAV[p.m]+NAAM[p.m]+' <em>Gesponsord</em></div><div class="ps-titel">'+esc(t)+'</div><span class="ps-cta">'+p.cta+'</span></div><div class="ps-nav" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b></div></div>';
+}
+function lijnen(ws,cls){return '<div class="lijnen'+(cls?' '+cls:'')+'">'+ws.map(function(w){return '<i style="width:'+w+'%"></i>'}).join('')+'</div>'}
+document.getElementById('pmax-blokken').innerHTML=PM.map(function(p){
+  var h='<h3 class="sub">'+esc(p.titel)+' <span>naar '+esc(p.lp)+'</span></h3>';
+  h+='<div class="pmax-kop"><div class="blok"><span class="label">'+p.label+'</span><h3>'+esc(p.titel)+'</h3><div class="bud"><b>'+p.bud+'</b><span>per dag · voorstel</span></div><p>'+esc(p.doel)+'</p><p class="lp">Naar <a href="'+p.lpUrl+'" target="_blank" rel="noopener">'+esc(p.lp)+'</a></p></div>';
+  h+='<div class="blok"><span class="label">Zoekthema\'s</span><table class="kwt"><thead><tr><th>Thema</th><th>Volume</th><th>Klik</th></tr></thead><tbody>'+p.themas.map(function(r){return '<tr><td>'+r[0]+'</td><td>'+r[1]+'</td><td>'+r[2]+'</td></tr>'}).join('')+'</tbody></table></div>';
+  h+='<div class="blok"><span class="label">Doelgroepsignalen</span><ul class="lijst" style="list-style:none;margin-top:8px;font-size:15px;color:var(--ink-2)">'+p.signalen.map(function(s){return '<li style="padding:8px 0;border-bottom:1px solid #EEE7DC">'+esc(s)+'</li>'}).join('')+'</ul><p class="voetnoot">Signalen sturen Google de goede kant op. Google mag daarbuiten ook zoeken.</p></div></div>';
+  h+='<div class="assets" style="margin-top:20px"><div class="blok"><span class="label">Koppen · max. 30 tekens</span><ul>'+p.koppen.map(function(k){return '<li>'+esc(k)+'<em>'+k.length+'</em></li>'}).join('')+'</ul></div>'+
+     '<div class="blok"><span class="label">Lange koppen · max. 90</span><ul>'+p.lang.map(function(k){return '<li>'+esc(k)+'<em>'+k.length+'</em></li>'}).join('')+'</ul></div>'+
+     '<div class="blok"><span class="label">Beschrijvingen · 60 en 90</span><ul>'+p.besch.map(function(k){return '<li>'+esc(k)+'<em>'+k.length+'</em></li>'}).join('')+'</ul><p class="voetnoot">Knop: '+p.cta+' · Bedrijfsnaam: '+NAAM[p.m]+'</p></div></div>';
+  h+='<p class="voetnoot" style="margin-top:22px"><b>Beeldbank</b> · '+p.beelden.length+' beelden, Google snijdt ze bij naar liggend 1,91:1, vierkant en staand 4:5. "VM" = Voortman-foto zonder logo.</p>';
+  h+='<div class="beeldbank">'+p.beelden.map(function(b){return '<figure>'+zimg(b,'Beeld voor '+p.titel)+(b.indexOf('vm-')==0?'<figcaption>VM</figcaption>':'')+'</figure>'}).join('')+'</div>';
+  h+='<h3 class="sub" style="font-size:19px">Zo ziet het eruit <span>YouTube, Shorts, Gmail, Discover en websites</span></h3><div class="pm2">';
+  h+='<div class="pmv"><span class="wat">YouTube Shorts · telefoon</span>'+short(p,p.short1,p.short1t)+'</div>';
+  h+='<div class="pmv breed"><span class="wat">YouTube-startpagina · desktop</span><div class="browser"><div class="bbar"><span></span><span></span><span></span><div class="burl">youtube.com</div></div><div class="ytbar"><span class="yt-logo"><i></i>YouTube</span><div class="ytzoek">Zoeken</div></div><div class="ytgrid">'+
+     '<div class="ytkaart"><div class="yt">'+zimg(p.home.img,'Advertentie op de YouTube-startpagina')+'<span class="dur">0:10</span></div><div class="ytmeta">'+FAV[p.m]+'<div><b>'+esc(p.home.t)+'</b><div class="gs"><strong>Gesponsord</strong> · '+NAAM[p.m]+'</div><div class="ytd">'+esc(p.home.d)+'</div><span class="knop blauw klein">'+p.cta+'</span></div></div></div>'+
+     '<div class="ytkaart leeg" aria-hidden="true"><div class="vlak"></div>'+lijnen([90,60,40])+'</div><div class="ytkaart leeg" aria-hidden="true"><div class="vlak"></div>'+lijnen([85,55,45])+'</div></div></div></div>';
+  var sp=p.instream.video?'<div class="speler" data-video="'+vid(p.instream.video)+'.mp4"><video muted loop playsinline preload="metadata" poster="'+vid(p.instream.video)+'.jpg"><source src="'+vid(p.instream.video)+'.mp4" type="video/mp4"></video>':'<div class="speler">'+zimg(p.instream.img,'Advertentie vooraf in een YouTube-video');
+  h+='<div class="pmv breed"><span class="wat">YouTube-video · advertentie vooraf</span><div class="browser"><div class="bbar"><span></span><span></span><span></span><div class="burl">youtube.com/watch</div></div><div class="ytbar"><span class="yt-logo"><i></i>YouTube</span><div class="ytzoek">Zoeken</div></div>'+sp+
+     '<div class="sp-ad">'+FAV[p.m]+'<div><b>'+esc(p.instream.t)+'</b><small>'+DOM[p.m]+'</small></div><span class="knop blauw klein">'+p.cta+'</span></div><div class="sp-skip">Overslaan ▸</div><div class="sp-label">Advertentie · 0:06</div><div class="sp-balk"><i></i></div></div>'+lijnen([70,35],'ruim')+'</div></div>';
+  h+='<div class="pmv"><span class="wat">Gmail · telefoon</span><div class="phone"><div class="gm-top"><div class="gm-zoek">☰ <span>Zoeken in e-mail</span></div></div><div class="gm-tab">Promoties</div>'+
+     '<div class="gm-rij">'+FAV[p.m]+'<div><div class="gm-van"><span class="bd">Advertentie</span>'+NAAM[p.m]+'</div><div class="gm-onder">'+esc(p.gmail.onder)+'</div><div class="gm-snip">'+esc(p.gmail.snip)+'</div></div></div>'+
+     '<div class="gm-open">'+zimg(p.gmail.img,'Geopende Gmail-advertentie')+'<div class="tx"><b>'+esc(p.gmail.b)+'</b>'+esc(p.gmail.t)+'<br><span class="knop">'+p.cta+'</span></div></div>'+
+     '<div class="gm-rij leeg" aria-hidden="true"><span class="g-fav grijs"></span>'+lijnen([40,90,70])+'</div></div></div>';
+  h+='<div class="pmv"><span class="wat">Google Discover · telefoon</span><div class="phone"><div class="dc-top"><span class="dc-g">Google</span><div class="gm-zoek">'+ZOEK+'<span>Zoeken</span></div></div>'+
+     '<div class="dc-kaart">'+zimg(p.disc.img,'Advertentie in Google Discover')+'<div class="tx"><b>'+esc(p.disc.t)+'</b><div class="gs"><strong>Gesponsord</strong> · '+NAAM[p.m]+'</div><span class="knop blauw klein">'+p.cta+'</span></div></div>'+
+     '<div class="dc-kaart leeg" aria-hidden="true"><div class="vlak"></div>'+lijnen([90,70,30])+'</div></div></div>';
+  h+='<div class="pmv"><span class="wat">YouTube Shorts · tweede video</span>'+short(p,p.short2,p.short2t)+'</div>';
+  h+='<div class="pmv vol"><span class="wat">Website · displayadvertenties</span><div class="browser"><div class="bbar"><span></span><span></span><span></span><div class="burl">'+p.site.url+'</div></div><div class="site"><div class="site-kop"><b>Voorbeeldsite</b><span>Wonen</span><span>Verbouwen</span><span>Tuin</span></div><div class="site-body">'+
+     '<div>'+lijnen([80,55],'groot')+'<div class="vlak breed"></div>'+lijnen([100,95,98,60])+
+     '<div class="native">'+zimg(p.site.img,'Displayadvertentie in een artikel')+'<div class="tx"><div class="logo-r">'+FAV[p.m]+NAAM[p.m]+' · Advertentie</div><b>'+esc(p.site.b)+'</b>'+esc(p.site.t)+'<br><span class="knop">'+p.cta+'</span></div></div>'+lijnen([100,92,97,70])+'</div>'+
+     '<div class="site-zij"><span class="adlbl">Advertentie</span><div class="kaartje">'+zimg(p.site.sq,'Vierkante displayadvertentie')+'<div class="tx"><b>'+esc(p.site.sqb)+'</b>'+esc(p.site.sqt)+'<br><span class="knop">'+p.cta+'</span></div></div>'+
+     '<span class="adlbl">Advertentie</span><div class="kaartje port">'+zimg(p.site.port,'Staande displayadvertentie')+'<div class="tx"><b>'+esc(p.site.portb)+'</b>'+esc(p.site.portt)+'<br><span class="knop">'+p.cta+'</span></div></div></div>'+
+     '</div></div></div></div>';
+  h+='</div>';
+  return h;
+}).join('<div style="height:40px"></div>');
+
+/* ---------- Meta (schilderskeus.nl/behangen) ---------- */
+var META={feed:[
+ {id:'st01-scheuren',nr:'1',hoek:'Probleem',tekst:'Scheurtjes in je plafond of muur? Met renovlies wordt het weer glad en strak, zonder stucwerk. Vertel in 1 minuut wat er moet gebeuren en ontvang tot 3 offertes van vakmensen uit je regio. Gratis en vrijblijvend.',kop:'Renovlies laten plakken?',beschr:'Gratis tot 3 offertes',cta:'Offerte aanvragen'},
+ {id:'st02-vs',nr:'2',hoek:'Uitleg',tekst:'Glasvlies of renovlies? Allebei worden ze geplakt en gesausd in de kleur die jij wilt.\n\nGlasvlies: sterk en stootvast, met een lichte structuur. Fijn voor gang, trap en kinderkamer.\nRenovlies: glad, lijkt op stucwerk en werkt scheurtjes weg.\n\nTwijfel je? Kies "Weet ik nog niet" en laat je gratis adviseren.',kop:'Glasvlies of renovlies?',beschr:'Laat je gratis adviseren',cta:'Meer informatie'},
+ {id:'st03-drie',nr:'3',hoek:'Vergelijken',tekst:'Eén offerte zegt weinig. Drie zeggen alles. Prijzen voor glasvlies en renovlies lopen flink uiteen, net als planning en garantie. Vraag in één keer tot 3 offertes aan en zet ze naast elkaar. Jij kiest, je zit nergens aan vast.',kop:'Vergelijk 3 offertes',beschr:'Gratis en vrijblijvend',cta:'Offerte aanvragen'},
+ {id:'st04-strak',nr:'4',hoek:'Resultaat',tekst:'Strakke muren en plafonds, zonder stucwerk. Glasvlies of renovlies wordt geplakt en gesausd in één klus. Ook voor plafonds. Je aanvraag gaat naar maximaal 3 vakmensen uit je regio, dus je wordt niet platgebeld.',kop:'Strakke muren zonder stucwerk',beschr:'Max. 3 offertes, geen spam',cta:'Aanmelden'},
+ {id:'st05-stappen',nr:'5',hoek:'Zo werkt het',tekst:'Zo werkt het:\n1. Beschrijf je klus: glasvlies, renovlies of advies.\n2. Ontvang tot 3 offertes van vakmensen uit je regio, binnen 48 uur.\n3. Vergelijk en kies. Je zit nergens aan vast.\n\nKost je ongeveer 1 minuut.',kop:'In 1 minuut je aanvraag klaar',beschr:'Binnen 48 uur reactie',cta:'Offerte aanvragen'},
+ {id:'st06-gang',nr:'6',hoek:'Toepassing',tekst:'Gang en trappenhuis zien snel beschadigd? Glasvlies is een sterk weefsel met een lichte structuur. Stootvast, en later makkelijk opnieuw te sausen. Vraag gratis offertes aan bij vakmensen uit je regio.',kop:'Stootvast voor gang en trap',beschr:'Glasvlies laten plakken',cta:'Meer informatie'}
+],video:[
+ {id:'mv01-glasvlies',nr:'video 1 · 10 s',tekst:'Strakke muren, zonder stucwerk. Glasvlies of renovlies wordt geplakt én gesausd in één klus. Vergelijk gratis tot 3 offertes van vakmensen uit je regio.',kop:'Strakke muren zonder stucwerk',beschr:'Gratis tot 3 offertes',cta:'Offerte aanvragen'},
+ {id:'mv02-plafond',nr:'video 2 · 10 s',tekst:'Scheurtjes in je plafond? Renovlies maakt het weer glad en strak. Eén aanvraag, maximaal 3 vakmensen die contact opnemen.',kop:'Renovlies op je plafond',beschr:'Binnen 48 uur reactie',cta:'Aanmelden'},
+ {id:'mv03-plakken',nr:'video 3 · 10 s',tekst:'Glasvlies of renovlies laten plakken? Je hoeft geen tien bedrijven te bellen. In 1 minuut staat je aanvraag klaar, gratis en vrijblijvend.',kop:'Geen tien bedrijven bellen',beschr:'Aanvraag in 1 minuut',cta:'Offerte aanvragen'}
+]};
+function kaart(a,media){
+  return '<article class="ad"><div class="kop1"><div class="logo" aria-hidden="true">s</div><div class="naam">Schilderskeus<small>Gesponsord</small></div><span class="nr">'+esc(a.nr)+'</span></div>'+
+    '<p class="prim kort">'+esc(a.tekst)+'</p><button class="meer" type="button">Meer weergeven</button>'+media+
+    '<div class="onder"><div><div class="dom">schilderskeus.nl</div><div class="kopr">'+esc(a.kop)+'</div><div class="besch">'+esc(a.beschr)+'</div></div><span class="cta">'+esc(a.cta)+'</span></div></article>';
+}
+document.getElementById('meta-feed').innerHTML=META.feed.map(function(a){
+  return kaart(a,'<img class="zoom" src="assets/ads/'+a.id+'-f.jpg" data-groot="assets/ads/'+a.id+'-f.jpg" alt="Advertentie '+a.nr+': '+esc(a.kop)+'" loading="lazy">');
+}).join('');
+document.getElementById('meta-stories').innerHTML=META.feed.map(function(a){
+  return '<div class="story" data-groot="assets/ads/'+a.id+'-s.jpg"><img src="assets/ads/'+a.id+'-s.jpg" alt="Advertentie '+a.nr+' in Stories" loading="lazy"><span>'+a.nr+'</span></div>';
+}).join('');
+document.getElementById('meta-video').innerHTML=META.video.map(function(a){
+  var n=vid(a.id+'-f');
+  return kaart(a,'<video class="zoom" data-video="'+n+'.mp4" muted loop playsinline preload="metadata" poster="'+n+'.jpg"><source src="'+n+'.mp4" type="video/mp4"></video>');
+}).join('');
+document.getElementById('meta-video-st').innerHTML=META.video.map(function(a,i){
+  var n=vid(a.id+'-s');
+  return '<div class="story" data-video="'+n+'.mp4"><video muted loop playsinline preload="metadata" poster="'+n+'.jpg"><source src="'+n+'.mp4" type="video/mp4"></video><span>video '+(i+1)+'</span></div>';
+}).join('');
+
+[].forEach.call(document.querySelectorAll('.meer'),function(b){b.addEventListener('click',function(){var p=b.previousElementSibling;var kort=p.classList.toggle('kort');b.textContent=kort?'Meer weergeven':'Minder weergeven'})});
+// video's spelen stil af zodra ze in beeld komen
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.play().catch(function(){})}else{e.target.pause()}})},{threshold:.5});
+  [].forEach.call(document.querySelectorAll('video'),function(v){io.observe(v)});
+}
+var lb=document.getElementById('lb'), lbIn=document.getElementById('lbInhoud');
+function open(html){lbIn.innerHTML=html;lb.classList.add('open');document.body.style.overflow='hidden';var v=lbIn.querySelector('video');if(v){v.play().catch(function(){})}}
+function dicht(){lb.classList.remove('open');lbIn.innerHTML='';document.body.style.overflow=''}
+document.addEventListener('click',function(e){
+  var t=e.target.closest('[data-groot],[data-video]');
+  if(t&&!lb.contains(t)){
+    if(t.dataset.video){open('<video src="'+t.dataset.video+'" controls autoplay playsinline loop></video>')}
+    else{open('<img src="'+t.dataset.groot+'" alt="">')}
+    return;
+  }
+  if(e.target===lb||e.target.id==='lbSluit'){dicht()}
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('open'))dicht()});
+</script>
+</body>
+</html>
