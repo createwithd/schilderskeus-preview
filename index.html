@@ -216,7 +216,8 @@ footer{padding:36px 0 56px;color:var(--as);font-size:14px;border-top:1px solid v
 .ads{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start}
 .ad{background:var(--kaart);border:1px solid #E3DED7;border-radius:10px;overflow:hidden;font-size:14.5px}
 .ad .kop1{display:flex;align-items:center;gap:10px;padding:12px 14px}
-.ad .logo{width:36px;height:36px;border-radius:50%;background:var(--cta);color:#fff;display:flex;align-items:center;justify-content:center;font-family:"Bricolage Grotesque",sans-serif;font-weight:750}
+.ad .logo{width:36px;height:36px;border-radius:50%;background:var(--cta);color:#fff;display:flex;align-items:center;justify-content:center;font-family:"Bricolage Grotesque",sans-serif;font-weight:750;overflow:hidden}
+.ad .logo.vm{background:#fff;border:1px solid #E3E3E3}.ad .logo.vm img{width:88%;height:auto;aspect-ratio:auto;background:none}
 .ad .naam{font-weight:700;line-height:1.2}
 .ad .naam small{display:block;font-weight:400;color:#8A8580;font-size:12.5px}
 .ad .nr{margin-left:auto;font-size:12px;font-weight:700;color:var(--cta)}
@@ -267,8 +268,8 @@ html.verlopen .verlopen-melding{display:flex;min-height:100vh;align-items:center
 <header class="held"><div class="wrap">
   <span class="label">Preview · oktober 2026</span>
   <h1>Alle campagnes voor Schilderskeus en renovlies in beeld</h1>
-  <p>Drie salespages, vier zoekcampagnes, twee Performance Max-campagnes en één Meta-campagne. Zo ziet alles eruit voordat het live gaat. Alle beelden zijn echte projectfoto's van Voortman, zonder logo.</p>
-  <div class="chips"><span class="chip"><b>3</b> salespages</span><span class="chip"><b>4</b> zoekcampagnes</span><span class="chip"><b>2</b> × Performance Max</span><span class="chip"><b>1</b> × Meta</span><span class="chip"><b>9</b> video-advertenties</span></div>
+  <p>Drie salespages, vier zoekcampagnes, twee Performance Max-campagnes en twee Meta-campagnes. Zo ziet alles eruit voordat het live gaat. Alle beelden zijn echte projectfoto's van Voortman, zonder logo.</p>
+  <div class="chips"><span class="chip"><b>3</b> salespages</span><span class="chip"><b>4</b> zoekcampagnes</span><span class="chip"><b>2</b> × Performance Max</span><span class="chip"><b>2</b> × Meta</span><span class="chip"><b>11</b> video-advertenties</span></div>
 </div></header>
 
 <section id="inhoud"><div class="wrap">
@@ -277,7 +278,7 @@ html.verlopen .verlopen-melding{display:flex;min-height:100vh;align-items:center
     <a class="ih" href="#overzicht"><span>2</span><b>Overzicht en budget</b><small>Alle campagnes op een rij</small></a>
     <a class="ih" href="#zoeken"><span>3</span><b>Zoekcampagnes</b><small>Zoektermen en advertenties</small></a>
     <a class="ih" href="#pmax"><span>4</span><b>Performance Max</b><small>YouTube, Shorts, Gmail, Discover, websites</small></a>
-    <a class="ih" href="#meta"><span>5</span><b>Meta</b><small>Alleen voor /behangen</small></a>
+    <a class="ih" href="#meta"><span>5</span><b>Meta</b><small>/behangen en /renovliesbehang</small></a>
   </div>
 </div></section>
 
@@ -308,8 +309,9 @@ html.verlopen .verlopen-melding{display:flex;min-height:100vh;align-items:center
       <tr><td><b>Behang vergelijken</b><small>Glasvlies en renovlies laten plakken</small></td><td>Google Zoeken</td><td>schilderskeus.nl/behangen</td><td class="n">€ 15</td><td class="n">± € 455</td></tr>
       <tr><td><b>PMax · Renovlies &amp; Glasvlies</b><small>YouTube, Shorts, Gmail, Discover, websites en Zoeken</small></td><td>Performance Max</td><td>voortmanschilderwerken.nl/renovliesbehang</td><td class="n">€ 10</td><td class="n">± € 305</td></tr>
       <tr><td><b>PMax · Schilderskeus</b><small>Offertes vergelijken, zelfde kanalen</small></td><td>Performance Max</td><td>schilderskeus.nl</td><td class="n">€ 10</td><td class="n">± € 305</td></tr>
-      <tr><td><b>Meta · Glasvlies of renovlies</b><small>Facebook en Instagram: feed, Stories en Reels</small></td><td>Meta</td><td>schilderskeus.nl/behangen</td><td class="n">€ 15</td><td class="n">± € 455</td></tr>
-      <tr class="tot"><td>Totaal als alles draait</td><td></td><td></td><td class="n">€ 95</td><td class="n">± € 2.890</td></tr>
+      <tr><td><b>Meta · Schilderskeus glasvlies of renovlies</b><small>Facebook en Instagram: feed, Stories en Reels</small></td><td>Meta</td><td>schilderskeus.nl/behangen</td><td class="n">€ 15</td><td class="n">± € 455</td></tr>
+      <tr><td><b>Meta · Voortman renovlies &amp; glasvlies</b><small>Facebook en Instagram: feed, Stories en Reels</small></td><td>Meta</td><td>voortmanschilderwerken.nl/renovliesbehang</td><td class="n">€ 15</td><td class="n">± € 455</td></tr>
+      <tr class="tot"><td>Totaal als alles draait</td><td></td><td></td><td class="n">€ 110</td><td class="n">± € 3.345</td></tr>
     </tbody></table></div>
   <p class="voetnoot">Per maand = per dag × 30,4. Google kan op een dag tot twee keer het dagbudget uitgeven, maar over de maand niet meer dan dit.</p>
 </div></section>
@@ -360,8 +362,9 @@ html.verlopen .verlopen-melding{display:flex;min-height:100vh;align-items:center
 
 <section id="meta"><div class="wrap">
   <span class="label">5 · Meta</span>
-  <h2>Meta: glasvlies en renovlies bij huiseigenaren in de regio</h2>
-  <p class="intro">Eén campagne op Facebook en Instagram, alleen voor schilderskeus.nl/behangen. Mensen met scheurtjes in het plafond of oude muren zoeken nog niet actief. Met beeld laten we zien hoe strak het kan worden. Daarna vragen ze in één minuut offertes aan.</p>
+  <h2>Meta: twee campagnes voor glasvlies en renovlies</h2>
+  <p class="intro">Mensen met scheurtjes in het plafond of oude muren zoeken nog niet actief. Met beeld laten we zien hoe strak het kan worden. Campagne A stuurt naar de vergelijkingssite schilderskeus.nl/behangen, campagne B naar de eigen renovliespagina van Voortman. Allebei op Facebook en Instagram, 30 km rond Deventer.</p>
+  <h3 class="sub" style="font-size:26px">A · Schilderskeus <span>naar schilderskeus.nl/behangen · vergelijkingssite, toon zoals Trustoo</span></h3>
   <div class="meta-kop">
     <div class="blok"><span class="label">Voorstel</span><h3>Budget</h3><div class="bud"><b>€15</b><span>per dag · ± €455 per maand</span></div><p>Na een week kijken we naar de kosten per aanvraag. De advertenties die de meeste aanvragen opleveren krijgen meer budget, de rest zetten we uit.</p></div>
     <div class="blok"><span class="label">Wie</span><h3>Huiseigenaren, 30 tot 65 jaar</h3><p>30 km rond Deventer, dus ook Apeldoorn en Zutphen. Interesses: woning, verbouwen, interieur en doe-het-zelf. Later ook mensen die op de pagina waren maar niets aanvroegen.</p></div>
@@ -381,6 +384,28 @@ html.verlopen .verlopen-melding{display:flex;min-height:100vh;align-items:center
   <div class="ads" id="meta-video"></div>
   <h3 class="sub">Video in Stories en Reels <span>dezelfde 3 video's · 9:16</span></h3>
   <div class="stories drie" id="meta-video-st"></div>
+
+  <h3 class="sub" style="font-size:26px;margin-top:64px">B · Voortman Schilderwerken <span>naar voortmanschilderwerken.nl/renovliesbehang · eigen merk en huisstijl</span></h3>
+  <div class="meta-kop">
+    <div class="blok"><span class="label">Voorstel</span><h3>Budget</h3><div class="bud"><b>€15</b><span>per dag · ± €455 per maand</span></div><p>Zelfde aanpak: na een week kijken naar de kosten per offerteaanvraag en opschalen wat werkt.</p></div>
+    <div class="blok"><span class="label">Wie</span><h3>Huiseigenaren en nieuwbouwkopers</h3><p>30 km rond Deventer. Huiseigenaren met oude of beschadigde muren, en een aparte groep: mensen die net een nieuwbouwwoning kochten.</p></div>
+    <div class="blok donker"><span class="label">Waarom Voortman zelf</span><h3>Eigen vakmensen, eigen reviews</h3><p>Hier mag het merk wel in beeld: eigen vakmensen in loondienst, 4,8 uit 240 Google-reviews en echte foto's van de renovliespagina.</p></div>
+  </div>
+  <h3 class="sub">Wat we van uwnieuwbouwwoning overnemen <span>actieve advertenties in de Meta-advertentiebibliotheek, oktober 2026</span></h3>
+  <div class="meta-kop">
+    <div class="blok"><span class="label">Doelgroep</span><h3>"Nieuwbouwwoning gekocht?"</h3><p>Ze spreken nieuwbouwkopers direct aan. Wij doen dat in advertentie 6: strakke muren voordat je erin trekt.</p></div>
+    <div class="blok"><span class="label">Bewijs</span><h3>Een score in de advertentie</h3><p>Zij noemen "9,2 uit 617 beoordelingen". Wij noemen de 4,8 uit 240 Google-reviews die ook op de renovliespagina staat.</p></div>
+    <div class="blok"><span class="label">Drempel</span><h3>Vrijblijvend en snel</h3><p>"Vraag vrijblijvend aan", één aanspreekpunt, korte video's. Bij ons: gratis advies aan huis en een heldere prijs vooraf.</p></div>
+  </div>
+  <p class="voetnoot">uwglasvezelbehanger.nl adverteert op dit moment niet op Facebook of Instagram.</p>
+  <h3 class="sub">Feed <span>6 beeldadvertenties · 4:5 · foto's van de renovliespagina</span></h3>
+  <div class="ads" id="vm-feed"></div>
+  <h3 class="sub">Stories en Reels <span>dezelfde 6 advertenties · 9:16</span></h3>
+  <div class="stories" id="vm-stories"></div>
+  <h3 class="sub">Video <span>3 video-advertenties · 10 seconden · echte foto's in beweging</span></h3>
+  <div class="ads" id="vm-video"></div>
+  <h3 class="sub">Video in Stories en Reels <span>dezelfde 3 video's · 9:16</span></h3>
+  <div class="stories drie" id="vm-video-st"></div>
 </div></section>
 
 <section id="planning"><div class="wrap">
@@ -394,9 +419,9 @@ html.verlopen .verlopen-melding{display:flex;min-height:100vh;align-items:center
   </div>
   <h3 class="sub">Aandachtspunten</h3>
   <div class="punten">
-    <div class="blok"><h3>Performance Max en Meta hebben meting nodig</h3><p>Zonder gemeten aanvragen weet Google of Meta niet wie hij moet zoeken. Eerst de conversie "aanvraag verstuurd" instellen, dan pas starten.</p></div>
+    <div class="blok"><h3>Performance Max en Meta hebben meting nodig</h3><p>Zonder gemeten aanvragen weet Google of Meta niet wie hij moet zoeken. Eerst de conversie "aanvraag verstuurd" instellen, ook de Meta-pixel met een Lead-event op /behangen en op /renovliesbehang. Dan pas starten.</p></div>
     <div class="blok"><h3>Fotobehang op de homepage</h3><p>Op schilderskeus.nl staat bij Behangen nog "vlies, glasvlies, fotobehang". Voortman doet alleen glasvlies en renovlies. Advies: "fotobehang" weghalen.</p></div>
-    <div class="blok"><h3>Beelden</h3><p>Alle advertentiebeelden zijn echte projectfoto's van Voortman, zonder logo of bedrijfsbus in beeld. De video's zijn dezelfde foto's met een rustige beweging. In de Schilderskeus-advertenties staat nergens de naam Voortman.</p></div>
+    <div class="blok"><h3>Beelden</h3><p>Alle advertentiebeelden zijn echte projectfoto's van Voortman. De video's zijn dezelfde foto's met een rustige beweging. In de Schilderskeus-advertenties staat nergens de naam of het logo van Voortman; in de Voortman-advertenties mag dat wel.</p></div>
     <div class="blok"><h3>Zelfde zoekwoorden, één account</h3><p>Schilderskeus en Voortman bieden op deels dezelfde renovlies- en glasvliestermen. Binnen één account toont Google per zoekopdracht maar één van de twee. Dat is zo bedoeld.</p></div>
   </div>
 </div></section>
@@ -457,14 +482,14 @@ var PM=[
   lang:['Renovlies en glasvlies strak aangebracht door eigen vakmensen uit Deventer','Strakke muren en plafonds zonder stucwerk. Vraag een gratis offerte aan'],
   besch:['Naadloos, stootvast en overschilderbaar.','Actief in Deventer, Apeldoorn, Zutphen en omgeving.'],
   cta:'Offerte aanvragen',
-  beelden:['vm2533','vm5527','vm5528','vm7038','vm7031','vm293','vm5500','vm6759','vm7152','vm2230','vm292','vm7039'],
+  beelden:['vmrv3','vmrv4','vmrv8','vmrv9','vmrv5','vmrv1','vmrv2','vmrv7','vmrv6','vm5528','vm5527','vm7038'],
   short1:'pv1-glasvlies-s',short1t:'Glasvlies laten aanbrengen? Strak geplakt en gesausd door eigen vakmensen.',short2:'pv2-plafond-s',short2t:'Renovlies op je plafond: naadloos, glad en overschilderbaar.',
-  instream:{img:'vm2533',t:'Renovlies en glasvlies, strak zonder stucwerk'},
-  home:{img:'vm5500',t:'Strakke muren zonder stucwerk',d:'Renovlies en glasvlies door eigen vakmensen.'},
-  gmail:{img:'vm2533',onder:'Strakke muren zonder stucwerk',snip:'Renovlies en glasvlies door eigen vakmensen.',b:'Renovlies laten aanbrengen?',t:'Naadloos, glad en overschilderbaar. Vraag een gratis offerte aan.'},
+  instream:{img:'vmrv8',t:'Renovlies en glasvlies, strak zonder stucwerk'},
+  home:{img:'vmrv5',t:'Strakke muren zonder stucwerk',d:'Renovlies en glasvlies door eigen vakmensen.'},
+  gmail:{img:'vmrv2',onder:'Strakke muren zonder stucwerk',snip:'Renovlies en glasvlies door eigen vakmensen.',b:'Renovlies laten aanbrengen?',t:'Naadloos, glad en overschilderbaar. Vraag een gratis offerte aan.'},
   disc:{img:'vm5528',t:'Scheurtjes in je plafond? Renovlies maakt het weer strak, zonder stucwerk.'},
-  app:{img:'vm7031',t:'Renovlies en glasvlies, strak zonder stucwerk'},
-  site:{url:'www.voorbeeldsite.nl/verbouwen',img:'vm5500',b:'Renovlies of glasvlies laten aanbrengen?',t:'Strakke muren en plafonds zonder stucwerk, door eigen vakmensen. Deventer, Apeldoorn en Zutphen.',sq:'vm2230',sqb:'Glasvlies: sterk en stootvast',sqt:'Later makkelijk opnieuw te sausen.',port:'vm5528',portb:'Strak als stucwerk',portt:'Renovlies werkt scheurtjes weg.'}}
+  app:{img:'vmrv3',t:'Renovlies en glasvlies, strak zonder stucwerk'},
+  site:{url:'www.voorbeeldsite.nl/verbouwen',img:'vmrv9',b:'Renovlies of glasvlies laten aanbrengen?',t:'Strakke muren en plafonds zonder stucwerk, door eigen vakmensen. Deventer, Apeldoorn en Zutphen.',sq:'vmrv7',sqb:'Eigen vakmensen uit Deventer',sqt:'4,8 uit 240 Google-reviews.',port:'vmrv4',portb:'Strak als stucwerk',portt:'Renovlies werkt scheurtjes weg.'}}
 ];
 function img(n){return 'assets/real/'+n+'.jpg'}
 function zimg(n,alt,cls){return '<img class="zoom'+(cls?' '+cls:'')+'" src="'+img(n)+'" data-groot="'+img(n)+'" alt="'+esc(alt)+'" loading="lazy">'}
@@ -523,10 +548,11 @@ var META={feed:[
  {id:'mv02-plafond',nr:'video 2 · 10 s',tekst:'Scheurtjes in je plafond? Renovlies maakt het weer glad en strak. Eén aanvraag, maximaal 3 vakmensen bellen jou met hun prijs.',kop:'Renovlies op je plafond',beschr:'Binnen 48 uur reactie',cta:'Meer informatie'},
  {id:'mv03-plakken',nr:'video 3 · 10 s',tekst:'Glasvlies of renovlies laten plakken? Je hoeft geen tien bedrijven te bellen. In 1 minuut staat je aanvraag klaar, gratis en vrijblijvend.',kop:'Geen tien bedrijven bellen',beschr:'Aanvraag in 1 minuut',cta:'Aanmelden'}
 ]};
-function kaart(a,media){
-  return '<article class="ad"><div class="kop1"><div class="logo" aria-hidden="true">s</div><div class="naam">Schilderskeus<small>Gesponsord</small></div><span class="nr">'+esc(a.nr)+'</span></div>'+
+function kaart(a,media,m){
+  var lg=m=='vm'?'<div class="logo vm" aria-hidden="true"><img src="assets/img/vm-logo.png" alt=""></div>':'<div class="logo" aria-hidden="true">s</div>';
+  return '<article class="ad"><div class="kop1">'+lg+'<div class="naam">'+(m=='vm'?'Voortman Schilderwerken':'Schilderskeus')+'<small>Gesponsord</small></div><span class="nr">'+esc(a.nr)+'</span></div>'+
     '<p class="prim kort">'+esc(a.tekst)+'</p><button class="meer" type="button">Meer weergeven</button>'+media+
-    '<div class="onder"><div><div class="dom">schilderskeus.nl</div><div class="kopr">'+esc(a.kop)+'</div><div class="besch">'+esc(a.beschr)+'</div></div><span class="cta">'+esc(a.cta)+'</span></div></article>';
+    '<div class="onder"><div><div class="dom">'+(m=='vm'?'voortmanschilderwerken.nl':'schilderskeus.nl')+'</div><div class="kopr">'+esc(a.kop)+'</div><div class="besch">'+esc(a.beschr)+'</div></div><span class="cta">'+esc(a.cta)+'</span></div></article>';
 }
 document.getElementById('meta-feed').innerHTML=META.feed.map(function(a){
   return kaart(a,'<img class="zoom" src="assets/ads/'+a.id+'-f.jpg" data-groot="assets/ads/'+a.id+'-f.jpg" alt="Advertentie '+a.nr+': '+esc(a.kop)+'" loading="lazy">');
@@ -539,6 +565,33 @@ document.getElementById('meta-video').innerHTML=META.video.map(function(a){
   return kaart(a,'<video class="zoom" data-video="'+n+'.mp4" muted loop playsinline preload="metadata" poster="'+n+'.jpg"><source src="'+n+'.mp4" type="video/mp4"></video>');
 }).join('');
 document.getElementById('meta-video-st').innerHTML=META.video.map(function(a,i){
+  var n=vid(a.id+'-s');
+  return '<div class="story" data-video="'+n+'.mp4"><video muted loop playsinline preload="metadata" poster="'+n+'.jpg"><source src="'+n+'.mp4" type="video/mp4"></video><span>video '+(i+1)+'</span></div>';
+}).join('');
+
+var META_VM={feed:[
+ {id:'sv01-strak',nr:'1',tekst:'Strakke muren en plafonds, zonder stucwerk. Onze eigen vakmensen plakken renovlies of glasvlies en sausen het in jouw kleur. Eén klus, één aanspreekpunt. Actief in Deventer, Apeldoorn en Zutphen.',kop:'Renovlies en glasvlies laten aanbrengen',beschr:'4,8 op Google',cta:'Offerte aanvragen'},
+ {id:'sv02-plafond',nr:'2',tekst:'Scheurtjes in je plafond? Renovlies werkt ze weg: naadloos, glad en overschilderbaar. Geen stucwerk nodig. Vraag een gratis offerte aan, met een heldere prijs vooraf.',kop:'Renovlies op je plafond',beschr:'Heldere prijs vooraf',cta:'Offerte aanvragen'},
+ {id:'sv03-plekken',nr:'3',tekst:'Muur vol plekken, gaatjes en oude pluggen? Met renovlies wordt hij weer strak, en na het sausen lijkt het op stucwerk. Door onze eigen vakmensen uit Deventer.',kop:'Strak zonder stucwerk',beschr:'Eigen vakmensen',cta:'Meer informatie'},
+ {id:'sv04-advies',nr:'4',tekst:'Twijfel je tussen glasvlies en renovlies? Wij komen kijken en adviseren je gratis.\n\n✓ Eigen vakmensen in loondienst\n✓ Plakken en sausen in één klus\n✓ Heldere prijs vooraf',kop:'Gratis advies aan huis',beschr:'Deventer, Apeldoorn, Zutphen',cta:'Nu boeken'},
+ {id:'sv05-team',nr:'5',tekst:"Renovlies en glasvlies door je buren uit Deventer. Onze vakmensen zijn in loondienst, geen losse zzp'ers. Klanten geven ons een 4,8 uit 240 Google-reviews.",kop:'4,8 uit 240 Google-reviews',beschr:'Eigen vakmensen',cta:'Offerte aanvragen'},
+ {id:'sv06-nieuwbouw',nr:'6',tekst:'Nieuwbouwwoning gekocht? Laat de muren en plafonds strak afwerken voordat je erin trekt. Renovlies of glasvlies, geplakt en gesausd in één klus. Vraag vrijblijvend een offerte aan.',kop:'Strakke muren in je nieuwbouwhuis',beschr:'Voordat je erin trekt',cta:'Offerte aanvragen'}
+],video:[
+ {id:'pv1-glasvlies',nr:'video 1 · 10 s',tekst:'Glasvlies laten aanbrengen? Strak geplakt en gesausd door onze eigen vakmensen. Actief in Deventer, Apeldoorn en Zutphen.',kop:'Glasvlies laten aanbrengen',beschr:'Gratis offerte',cta:'Offerte aanvragen'},
+ {id:'pv2-plafond',nr:'video 2 · 10 s',tekst:'Renovlies op je plafond: naadloos, glad en overschilderbaar. Heldere prijs vooraf, bel 0570 448955 of vraag online een offerte aan.',kop:'Renovlies op je plafond',beschr:'Heldere prijs vooraf',cta:'Meer informatie'},
+ {id:'pv3-plekken',nr:'video 3 · 10 s',tekst:'Muur vol plekken en gaatjes? Renovlies maakt hem weer strak, zonder stucwerk. Door eigen vakmensen uit Deventer.',kop:'Strak zonder stucwerk',beschr:'Eigen vakmensen',cta:'Offerte aanvragen'}
+]};
+document.getElementById('vm-feed').innerHTML=META_VM.feed.map(function(a){
+  return kaart(a,'<img class="zoom" src="assets/ads/'+a.id+'-f.jpg" data-groot="assets/ads/'+a.id+'-f.jpg" alt="Advertentie '+a.nr+': '+esc(a.kop)+'" loading="lazy">','vm');
+}).join('');
+document.getElementById('vm-stories').innerHTML=META_VM.feed.map(function(a){
+  return '<div class="story" data-groot="assets/ads/'+a.id+'-s.jpg"><img src="assets/ads/'+a.id+'-s.jpg" alt="Advertentie '+a.nr+' in Stories" loading="lazy"><span>'+a.nr+'</span></div>';
+}).join('');
+document.getElementById('vm-video').innerHTML=META_VM.video.map(function(a){
+  var n=vid(a.id+'-f');
+  return kaart(a,'<video class="zoom" data-video="'+n+'.mp4" muted loop playsinline preload="metadata" poster="'+n+'.jpg"><source src="'+n+'.mp4" type="video/mp4"></video>','vm');
+}).join('');
+document.getElementById('vm-video-st').innerHTML=META_VM.video.map(function(a,i){
   var n=vid(a.id+'-s');
   return '<div class="story" data-video="'+n+'.mp4"><video muted loop playsinline preload="metadata" poster="'+n+'.jpg"><source src="'+n+'.mp4" type="video/mp4"></video><span>video '+(i+1)+'</span></div>';
 }).join('');
